@@ -1,0 +1,1141 @@
+local Perks = require('Module:Mayor/Data').perks
+
+return {
+	elections = {
+			[1] = {
+				date = "Jun 11, 2019",
+				candidates = {
+					Seraphine = {perks={}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Seraphine",
+					perks = {}
+				}			},
+			[88] = {
+				date = "Sep 9, 2020",
+				candidates = {
+					Diana = {perks={Perks.MythologicalRitual}, votes=97247, order=1},
+					Cole = {perks={Perks.MiningFiesta}, votes=27232, order=2},
+					Marina = {perks={Perks.FishingFestival}, votes=13178, order=3},
+					Paul = {perks={Perks.Marauder}, votes=2192, order=4},
+					Barry = {perks={Perks.MagicXPBoost}, votes=2057, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual}
+				},
+				minister = {
+					name = "Cole",
+					perks = {Perks.MiningFiesta}
+				}
+			},
+			[89] = {
+				date = "Sep 14, 2020",
+				candidates = {
+					Marina = {perks={Perks.FishingFestival}, votes=127251, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingFestival}
+				}			},
+			[90] = {
+				date = "Sep 19, 2020",
+				candidates = {
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=152292, order=1, params={extra_event="Mining Fiesta"}},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ATimeForGiving,Perks.ExtraEvent}
+				}			},
+			[91] = {
+				date = "Sep 24, 2020",
+				candidates = {
+					Cole = {perks={Perks.MiningXPBuff,Perks.Prospection}, votes=119598, order=1},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.MiningXPBuff,Perks.Prospection}
+				}			},
+			[92] = {
+				date = "Sep 30, 2020",
+				candidates = {
+					Aatrox = {perks={Perks.Pathfinder,Perks.SlashedPricing}, votes=149173, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.Pathfinder,Perks.SlashedPricing}
+				}			},
+			[93] = {
+				date = "Oct 5, 2020",
+				candidates = {
+					Cole = {perks={Perks.FishingFestival}, votes=139734, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingFestival}
+				}			},
+			[94] = {
+				date = "Oct 10, 2020",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}, votes=176051, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[95] = {
+				date = "Oct 15, 2020",
+				candidates = {
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=104475, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=2},
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=0, order=3},
+					Cole = {perks={Perks.MiningXPBuff,Perks.Prospection}, votes=0, order=4},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=0, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.EZPZ,Perks.Marauder}
+				}			},
+			[96] = {
+				date = "Oct 20, 2020",
+				candidates = {
+					Scorpius = {perks={Perks.Bribe,Perks.DarkerAuctions}, votes=319595, order=1},
+				},
+				mayor = {
+					name = "Scorpius",
+					perks = {Perks.Bribe,Perks.DarkerAuctions}
+				}			},
+			[97] = {
+				date = "Oct 25, 2020",
+				candidates = {
+					Marina = {perks={Perks.FishingFestival,Perks.LuckOfTheSea}, votes=188282, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingFestival,Perks.LuckOfTheSea}
+				}			},
+			[98] = {
+				date = "Oct 31, 2020",
+				candidates = {
+					Aatrox = {perks={Perks.Pathfinder,Perks.SlashedPricing}, votes=193190, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.Pathfinder,Perks.SlashedPricing}
+				}			},
+			[99] = {
+				date = "Nov 5, 2020",
+				candidates = {
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent,Perks.SweetBenevolence,Perks.ChivalrousCarnival}, votes=226569, order=1, params={extra_event="Spooky Festival"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=2},
+					Cole = {perks={Perks.MiningXPBuff,Perks.Prospection}, votes=0, order=3},
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=0, order=4},
+					Diana = {perks={Perks.Lucky}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ATimeForGiving,Perks.ExtraEvent,Perks.SweetBenevolence,Perks.ChivalrousCarnival}
+				}			},
+			[100] = {
+				date = "Nov 10, 2020",
+				candidates = {
+					Paul = {perks={Perks.EZPZ,Perks.Marauder,Perks.Benediction}, votes=243789, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.EZPZ,Perks.Marauder,Perks.Benediction}
+				}			},
+			[101] = {
+				date = "Nov 15, 2020",
+				candidates = {
+					Cole = {perks={Perks.Prospection,Perks.MiningXPBuff,Perks.MiningFiesta,Perks.MoltenForge}, votes=299797, order=1},
+					Marina = {perks={Perks.FishingXPBuff}, votes=0, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Foxy = {perks={Perks.ATimeForGiving}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.Prospection,Perks.MiningXPBuff,Perks.MiningFiesta,Perks.MoltenForge}
+				}			},
+			[102] = {
+				date = "Nov 20, 2020",
+				candidates = {
+					Foxy = {perks={Perks.ATimeForGiving,Perks.SweetBenevolence,Perks.ExtraEvent}, votes=211464, order=1, params={extra_event="Spooky Festival"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=2},
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ATimeForGiving,Perks.SweetBenevolence,Perks.ExtraEvent}
+				}			},
+			[103] = {
+				date = "Nov 25, 2020",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual}, votes=265129, order=1},
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival}, votes=0, order=2},
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Cole = {perks={Perks.MiningFiesta}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual}
+				}			},
+			[104] = {
+				date = "Dec 1, 2020",
+				candidates = {
+					Derpy = {perks={Perks.QuadTaxes,Perks.TurboMinions,Perks.DoubleMobsHP,Perks.MoarSkillz}, votes=391177, order=1},
+					Barry = {perks={}, votes=0, order=2},
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=0, order=3},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=0, order=4, params={extra_event="Fishing Festival"}},
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Derpy",
+					perks = {Perks.QuadTaxes,Perks.TurboMinions,Perks.DoubleMobsHP,Perks.MoarSkillz}
+				}			},
+			[105] = {
+				date = "Dec 6, 2020",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival,Perks.LuckOfTheSea}, votes=334535, order=1},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=2},
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=0, order=3},
+					Cole = {perks={Perks.MiningFiesta}, votes=0, order=4},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=0, order=5, params={extra_event="Mining Fiesta"}},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.FishingFestival,Perks.LuckOfTheSea}
+				}			},
+			[106] = {
+				date = "Dec 11, 2020",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}, votes=302950, order=1},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=0, order=2, params={extra_event="Spooky Festival"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Cole = {perks={Perks.MiningFiesta}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}
+				}			},
+			[107] = {
+				date = "Dec 16, 2020",
+				candidates = {
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=299388, order=1},
+					Marina = {perks={Perks.FishingXPBuff}, votes=0, order=2},
+					Cole = {perks={Perks.MiningFiesta}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Diana = {perks={Perks.MythologicalRitual}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.EZPZ,Perks.Marauder}
+				}			},
+			[108] = {
+				date = "Dec 21, 2020",
+				candidates = {
+					Cole = {perks={Perks.MiningFiesta}, votes=258051, order=1},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.MiningFiesta}
+				}			},
+			[109] = {
+				date = "Dec 26, 2020",
+				candidates = {
+					Foxy = {perks={Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}, votes=300567, order=1, params={extra_event="Mining Fiesta"}},
+					Marina = {perks={Perks.FishingXPBuff}, votes=0, order=2},
+					Paul = {perks={Perks.Benediction}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}
+				}			},
+			[110] = {
+				date = "Jan 1, 2021",
+				candidates = {
+					Diana = {perks={Perks.MythologicalRitual}, votes=282779, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual}
+				}			},
+			[111] = {
+				date = "Jan 6, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}, votes=298528, order=1},
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival}, votes=0, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=3},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=4},
+					Cole = {perks={Perks.MiningXPBuff,Perks.MiningFiesta}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}
+				}			},
+			[112] = {
+				date = "Jan 11, 2021",
+				candidates = {
+					Jerry = {perks={Perks.Perkpocalypse,Perks.Statspocalypse,Perks.Jerrypocalypse}, votes=475399, order=1},
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival}, votes=0, order=2},
+					Cole = {perks={Perks.MiningXPBuff,Perks.MiningFiesta}, votes=0, order=3},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=0, order=4, params={extra_event="Mining Fiesta"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Jerry",
+					perks = {Perks.Perkpocalypse,Perks.Statspocalypse,Perks.Jerrypocalypse}
+				}			},
+			[113] = {
+				date = "Jan 16, 2021",
+				candidates = {
+					Cole = {perks={Perks.MiningXPBuff,Perks.MiningFiesta}, votes=206449, order=1},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.MiningXPBuff,Perks.MiningFiesta}
+				}			},
+			[114] = {
+				date = "Jan 21, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.EZPZ,Perks.Benediction}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.EZPZ,Perks.Benediction}
+				}			},
+			[115] = {
+				date = "Jan 26, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}
+				}			},
+			[116] = {
+				date = "Feb 1, 2021",
+				candidates = {
+					Cole = {perks={Perks.MiningFiesta}, votes=234094, order=1},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.MiningFiesta}
+				}			},
+			[117] = {
+				date = "Feb 6, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[118] = {
+				date = "Feb 11, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}
+				}			},
+			[119] = {
+				date = "Feb 16, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}
+				}			},
+			[120] = {
+				date = "Feb 21, 2021",
+				candidates = {
+					Scorpius = {perks={Perks.Bribe,Perks.DarkerAuctions}, votes=609488, order=1},
+					Marina = {perks={Perks.FishingXPBuff}, votes=0, order=2},
+					Cole = {perks={Perks.MiningXPBuff,Perks.MiningFiesta}, votes=3559, order=3},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=2877, order=4, params={extra_event="Mining Fiesta"}},
+					Barry = {perks={Perks.MagicXPBoost}, votes=2138, order=5},
+				},
+				mayor = {
+					name = "Scorpius",
+					perks = {Perks.Bribe,Perks.DarkerAuctions}
+				},
+				minister = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff}
+				}
+			},
+			[121] = {
+				date = "Feb 26, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[122] = {
+				date = "Mar 4, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.EZPZ,Perks.Benediction}, votes=0, order=1},
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=0, order=2},
+					Barry = {perks={Perks.MagicXPBoost}, votes=0, order=3},
+					Cole = {perks={Perks.MiningXPBuff,Perks.MiningFiesta,Perks.Prospection}, votes=0, order=4},
+					Marina = {perks={Perks.FishingXPBuff}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.EZPZ,Perks.Benediction}
+				}			},
+			[123] = {
+				date = "Mar 9, 2021",
+				candidates = {
+					Foxy = {perks={Perks.ExtraEvent,Perks.ATimeForGiving,Perks.SweetBenevolence}, votes=0, order=1, params={extra_event="Fishing Festival"}},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ExtraEvent,Perks.ATimeForGiving,Perks.SweetBenevolence}
+				}			},
+			[124] = {
+				date = "Mar 14, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}
+				}			},
+			[125] = {
+				date = "Mar 19, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.EZPZ,Perks.Benediction}, votes=0, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.EZPZ,Perks.Benediction}
+				}			},
+			[126] = {
+				date = "Mar 24, 2021",
+				candidates = {
+					Cole = {perks={Perks.MiningXPBuff,Perks.MiningFiesta,Perks.Prospection}, votes=328141, order=1},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.MiningXPBuff,Perks.MiningFiesta,Perks.Prospection}
+				}			},
+			[127] = {
+				date = "Mar 29, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}, votes=256890, order=1},
+					Foxy = {perks={}, votes=0, order=2},
+					Diaz = {perks={}, votes=0, order=3},
+					Paul = {perks={}, votes=0, order=4},
+					Diana = {perks={}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.Pathfinder,Perks.SlashedPricing}
+				}			},
+			[128] = {
+				date = "Apr 4, 2021",
+				candidates = {
+					Dante = {perks={Perks.EconomyRestoration,Perks.IncreaseSecurity}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Dante",
+					perks = {Perks.EconomyRestoration,Perks.IncreaseSecurity}
+				},
+				minister = {
+					name = "Dante",
+					perks = {Perks.EconomyRestoration,Perks.IncreaseSecurity}
+				}
+			},
+			[129] = {
+				date = "Apr 9, 2021",
+				candidates = {
+					Dante = {perks={Perks.EconomyRestoration,Perks.IncreaseSecurity}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Dante",
+					perks = {Perks.EconomyRestoration,Perks.IncreaseSecurity}
+				},
+				minister = {
+					name = "Dante",
+					perks = {Perks.EconomyRestoration,Perks.IncreaseSecurity}
+				}
+			},
+			[130] = {
+				date = "Apr 16, 2021",
+				candidates = {
+					Technoblade = {perks={Perks.BloodGodsBlessing,Perks.ShrineoftheBloodGod,Perks.UnlimitedSpeed,Perks.PotatoCrownsRadiance,Perks.Anarchy}, votes=180340, order=1},
+				},
+				mayor = {
+					name = "Technoblade",
+					perks = {Perks.BloodGodsBlessing,Perks.ShrineoftheBloodGod,Perks.UnlimitedSpeed,Perks.PotatoCrownsRadiance,Perks.Anarchy}
+				}			},
+			[131] = {
+				date = "Apr 19, 2021",
+				candidates = {
+					Technoblade = {perks={Perks.BloodGodsBlessing,Perks.ShrineoftheBloodGod,Perks.UnlimitedSpeed,Perks.PotatoCrownsRadiance,Perks.Anarchy}, votes=0, order=1},
+					Resistance = {perks={}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Technoblade",
+					perks = {Perks.BloodGodsBlessing,Perks.ShrineoftheBloodGod,Perks.UnlimitedSpeed,Perks.PotatoCrownsRadiance,Perks.Anarchy}
+				},
+				minister = {
+					name = "Resistance",
+					perks = {}
+				}
+			},
+			[132] = {
+				date = "Apr 24, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}, votes=463145, order=1},
+					Cole = {perks={}, votes=0, order=2},
+					Diaz = {perks={}, votes=0, order=3},
+					Aatrox = {perks={}, votes=0, order=4},
+					Marina = {perks={}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[133] = {
+				date = "Apr 29, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.EZPZ,Perks.Benediction}, votes=376514, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.EZPZ,Perks.Benediction}
+				}			},
+			[134] = {
+				date = "May 5, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}, votes=435879, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}
+				}			},
+			[135] = {
+				date = "May 10, 2021",
+				candidates = {
+					Foxy = {perks={Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}, votes=408061, order=1, params={extra_event="Mining Fiesta"}},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}
+				}			},
+			[136] = {
+				date = "May 15, 2021",
+				candidates = {
+					Jerry = {perks={Perks.Perkpocalypse,Perks.Statspocalypse,Perks.Jerrypocalypse}, votes=663250, order=1},
+					Diana = {perks={}, votes=23932, order=2},
+					Paul = {perks={}, votes=9323, order=3},
+					Diaz = {perks={}, votes=8800, order=4},
+					Barry = {perks={}, votes=7272, order=5},
+				},
+				mayor = {
+					name = "Jerry",
+					perks = {Perks.Perkpocalypse,Perks.Statspocalypse,Perks.Jerrypocalypse}
+				},
+				minister = {
+					name = "Diana",
+					perks = {}
+				}
+			},
+			[137] = {
+				date = "May 20, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlashedPricing,Perks.SlayerXPBuff,Perks.Pathfinder}, votes=392482, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlashedPricing,Perks.SlayerXPBuff,Perks.Pathfinder}
+				}			},
+			[138] = {
+				date = "May 25, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.EZPZ,Perks.Benediction}, votes=356631, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.EZPZ,Perks.Benediction}
+				}			},
+			[139] = {
+				date = "May 30, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}, votes=520685, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[140] = {
+				date = "Jun 5, 2021",
+				candidates = {
+					Foxy = {perks={Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}, votes=413784, order=1, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}
+				}			},
+			[141] = {
+				date = "Jun 10, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=343088, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff}
+				}			},
+			[142] = {
+				date = "Jun 15, 2021",
+				candidates = {
+					Paul = {perks={Perks.EZPZ,Perks.Benediction}, votes=353926, order=1},
+					Diana = {perks={}, votes=0, order=2},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.EZPZ,Perks.Benediction}
+				}			},
+			[143] = {
+				date = "Jun 20, 2021",
+				candidates = {
+					Diana = {perks={Perks.MythologicalRitual,Perks.PetXPBuff}, votes=163389, order=1},
+					Diaz = {perks={}, votes=0, order=2},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual,Perks.PetXPBuff}
+				}			},
+			[144] = {
+				date = "Jun 25, 2021",
+				candidates = {
+					Scorpius = {perks={Perks.Bribe,Perks.DarkerAuctions}, votes=806292, order=1},
+				},
+				mayor = {
+					name = "Scorpius",
+					perks = {Perks.Bribe,Perks.DarkerAuctions}
+				}			},
+			[145] = {
+				date = "Jun 30, 2021",
+				candidates = {
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading,Perks.StockExchange,Perks.ShoppingSpree}, votes=530249, order=1},
+					Diana = {perks={}, votes=0, order=2},
+					Cole = {perks={}, votes=0, order=3},
+					Paul = {perks={}, votes=0, order=4},
+					Aatrox = {perks={}, votes=0, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[146] = {
+				date = "Jul 6, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}, votes=491876, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.LuckOfTheSea,Perks.FishingFestival,Perks.DoubleTrouble}
+				}			},
+			[147] = {
+				date = "Jul 11, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder}, votes=473244, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.Pathfinder}
+				}			},
+			[148] = {
+				date = "Jul 16, 2021",
+				candidates = {
+					Foxy = {perks={Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}, votes=400083, order=1, params={extra_event="Fishing Festival"}},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}
+				}			},
+			[149] = {
+				date = "Jul 21, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}, votes=485581, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual,Perks.PetXPBuff,Perks.SharingIsCaring}
+				}			},
+			[150] = {
+				date = "Jul 26, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.EZPZ,Perks.Benediction}, votes=359767, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.EZPZ,Perks.Benediction}
+				}			},
+			[151] = {
+				date = "Jul 31, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlashedPricing,Perks.SlayerXPBuff,Perks.Pathfinder}, votes=486404, order=1},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlashedPricing,Perks.SlayerXPBuff,Perks.Pathfinder}
+				}			},
+			[152] = {
+				date = "Aug 6, 2021",
+				candidates = {
+					Derpy = {perks={Perks.QuadTaxes,Perks.TurboMinions,Perks.DoubleMobsHP,Perks.MoarSkillz}, votes=674947, order=1},
+					Marina = {perks={Perks.LuckOfTheSea,Perks.FishingFestival}, votes=23490, order=2},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=12511, order=3},
+					Paul = {perks={Perks.Marauder}, votes=11086, order=4},
+					Foxy = {perks={Perks.ATimeForGiving}, votes=4650, order=5, params={extra_event="Fishing Festival"}},
+				},
+				mayor = {
+					name = "Derpy",
+					perks = {Perks.QuadTaxes,Perks.TurboMinions,Perks.DoubleMobsHP,Perks.MoarSkillz}
+				},
+				minister = {
+					name = "Marina",
+					perks = {Perks.LuckOfTheSea}
+				}
+			},
+			[153] = {
+				date = "Aug 11, 2021",
+				candidates = {
+					Cole = {perks={Perks.Prospection,Perks.MiningXPBuff,Perks.MiningFiesta}, votes=552813, order=1},
+					Marina = {perks={Perks.LuckOfTheSea,Perks.FishingFestival}, votes=105132, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=59974, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=27100, order=4},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.SweetBenevolence}, votes=22862, order=5, params={extra_event="Mining Fiesta"}},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.Prospection,Perks.MiningXPBuff,Perks.MiningFiesta}
+				},
+				minister = {
+					name = "Marina",
+					perks = {Perks.LuckOfTheSea}
+				}
+			},
+			[154] = {
+				date = "Aug 16, 2021",
+				candidates = {
+					Diana = {perks={Perks.MythologicalRitual,Perks.Lucky}, votes=328361, order=1},
+					Paul = {perks={Perks.Marauder,Perks.Benediction}, votes=191798, order=2},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.SweetBenevolence,Perks.ExtraEvent}, votes=61257, order=3, params={extra_event="Mining Fiesta"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=54069, order=4},
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=24446, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual,Perks.Lucky}
+				},
+				minister = {
+					name = "Paul",
+					perks = {Perks.Marauder}
+				}
+			},
+			[155] = {
+				date = "Aug 21, 2021",
+				candidates = {
+					Marina = {perks={Perks.LuckOfTheSea,Perks.FishingFestival}, votes=348347, order=1},
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder}, votes=139085, order=2},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.SweetBenevolence,Perks.ExtraEvent}, votes=55452, order=3, params={extra_event="Spooky Festival"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=45494, order=4},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=24349, order=5},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.LuckOfTheSea,Perks.FishingFestival}
+				},
+				minister = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff}
+				}
+			},
+			[156] = {
+				date = "Aug 26, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.Pathfinder}, votes=432231, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=98486, order=2},
+					Cole = {perks={Perks.Prospection}, votes=26493, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=21437, order=4},
+					Diana = {perks={Perks.PetXPBuff}, votes=17865, order=5},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.Pathfinder}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[157] = {
+				date = "Aug 31, 2021",
+				candidates = {
+					Foxy = {perks={Perks.ATimeForGiving,Perks.SweetBenevolence,Perks.ExtraEvent}, votes=386577, order=1, params={extra_event="Mining Fiesta"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=109925, order=2},
+					Diana = {perks={Perks.PetXPBuff,Perks.Lucky}, votes=58372, order=3},
+					Marina = {perks={Perks.FishingXPBuff}, votes=30181, order=4},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=28549, order=5},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ATimeForGiving,Perks.SweetBenevolence,Perks.ExtraEvent}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[158] = {
+				date = "Sep 6, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.Benediction}, votes=409663, order=1},
+					Cole = {perks={Perks.Prospection,Perks.MiningFiesta}, votes=92372, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=62283, order=3},
+					Diana = {perks={Perks.PetXPBuff,Perks.Lucky}, votes=32965, order=4},
+					Marina = {perks={Perks.FishingXPBuff}, votes=20420, order=5},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.Benediction}
+				},
+				minister = {
+					name = "Cole",
+					perks = {Perks.Prospection}
+				}
+			},
+			[159] = {
+				date = "Sep 11, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.PetXPBuff,Perks.MythologicalRitual}, votes=444084, order=1},
+					Cole = {perks={Perks.Prospection,Perks.MiningFiesta}, votes=45616, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=42200, order=3},
+					Aatrox = {perks={Perks.Pathfinder}, votes=20948, order=4},
+					Marina = {perks={Perks.FishingXPBuff}, votes=20737, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.PetXPBuff,Perks.MythologicalRitual}
+				},
+				minister = {
+					name = "Cole",
+					perks = {Perks.Prospection}
+				}
+			},
+			[160] = {
+				date = "Sep 16, 2021",
+				candidates = {
+					Jerry = {perks={Perks.Perkpocalypse,Perks.Statspocalypse,Perks.Jerrypocalypse}, votes=633419, order=1},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=17723, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=7846, order=3},
+					Cole = {perks={Perks.Prospection,Perks.MiningFiesta}, votes=7353, order=4},
+					Marina = {perks={Perks.FishingXPBuff}, votes=6336, order=5},
+				},
+				mayor = {
+					name = "Jerry",
+					perks = {Perks.Perkpocalypse,Perks.Statspocalypse,Perks.Jerrypocalypse}
+				},
+				minister = {
+					name = "Barry",
+					perks = {Perks.ArcaneCatalyst}
+				}
+			},
+			[161] = {
+				date = "Sep 21, 2021",
+				candidates = {
+					Cole = {perks={Perks.MiningFiesta,Perks.Prospection,Perks.MiningXPBuff}, votes=392948, order=1},
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival}, votes=124329, order=2},
+					Paul = {perks={Perks.EZPZ}, votes=50530, order=3},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=43158, order=4},
+					Foxy = {perks={Perks.ATimeForGiving}, votes=10005, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Cole",
+					perks = {Perks.MiningFiesta,Perks.Prospection,Perks.MiningXPBuff}
+				},
+				minister = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff}
+				}
+			},
+			[162] = {
+				date = "Sep 26, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival}, votes=427152, order=1},
+					Diana = {perks={Perks.MythologicalRitual}, votes=73331, order=2},
+					Aatrox = {perks={Perks.Pathfinder}, votes=50799, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=26724, order=4},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=16826, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.FishingFestival}
+				},
+				minister = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual}
+				}
+			},
+			[163] = {
+				date = "Oct 1, 2021",
+				candidates = {
+					Diana = {perks={Perks.MythologicalRitual,Perks.PetXPBuff}, votes=336437, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=74215, order=2},
+					Paul = {perks={Perks.EZPZ}, votes=54270, order=3},
+					Aatrox = {perks={Perks.Pathfinder}, votes=30891, order=4},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=14536, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual,Perks.PetXPBuff}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[164] = {
+				date = "Oct 7, 2021",
+				candidates = {
+					Foxy = {perks={Perks.ExtraEvent,Perks.SweetBenevolence,Perks.ATimeForGiving}, votes=355085, order=1, params={extra_event="Fishing Festival"}},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=82332, order=2},
+					Marina = {perks={Perks.FishingFestival}, votes=29961, order=3},
+					Cole = {perks={Perks.Prospection}, votes=27329, order=4},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=25508, order=5},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ExtraEvent,Perks.SweetBenevolence,Perks.ATimeForGiving}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[165] = {
+				date = "Oct 12, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingFestival,Perks.LuckOfTheSea}, votes=374768, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=76404, order=2},
+					Paul = {perks={Perks.EZPZ}, votes=70438, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=28964, order=4},
+					Diana = {perks={Perks.Lucky}, votes=22821, order=5},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingFestival,Perks.LuckOfTheSea}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[166] = {
+				date = "Oct 17, 2021",
+				candidates = {
+					Paul = {perks={Perks.EZPZ,Perks.Marauder}, votes=450206, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=65692, order=2},
+					Cole = {perks={Perks.Prospection}, votes=27743, order=3},
+					Diana = {perks={Perks.Lucky}, votes=16358, order=4},
+					Foxy = {perks={Perks.SweetBenevolence}, votes=10292, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.EZPZ,Perks.Marauder}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[167] = {
+				date = "Oct 22, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.Pathfinder}, votes=289552, order=1},
+					Diana = {perks={Perks.Lucky,Perks.PetXPBuff}, votes=112531, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=90524, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=22968, order=4},
+					Foxy = {perks={Perks.ATimeForGiving}, votes=11820, order=5, params={extra_event="Fishing Festival"}},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.Pathfinder}
+				},
+				minister = {
+					name = "Diana",
+					perks = {Perks.Lucky}
+				}
+			},
+			[168] = {
+				date = "Oct 27, 2021",
+				candidates = {
+					Scorpius = {perks={Perks.Bribe,Perks.DarkerAuctions}, votes=753675, order=1},
+					Paul = {perks={Perks.Marauder}, votes=4535, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=4032, order=3},
+					Marina = {perks={Perks.FishingFestival}, votes=2605, order=4},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=2567, order=5},
+				},
+				mayor = {
+					name = "Scorpius",
+					perks = {Perks.Bribe,Perks.DarkerAuctions}
+				},
+				minister = {
+					name = "Paul",
+					perks = {Perks.Marauder}
+				}
+			},
+			[169] = {
+				date = "Nov 1, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingFestival,Perks.FishingXPBuff}, votes=458017, order=1},
+					Aatrox = {perks={Perks.SlayerXPBuff}, votes=106467, order=2},
+					Cole = {perks={Perks.Prospection}, votes=39851, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=21237, order=4},
+					Foxy = {perks={Perks.ATimeForGiving}, votes=15823, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingFestival,Perks.FishingXPBuff}
+				},
+				minister = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff}
+				}
+			},
+			[170] = {
+				date = "Nov 7, 2021",
+				candidates = {
+					Diana = {perks={Perks.PetXPBuff,Perks.Lucky,Perks.MythologicalRitual}, votes=464113, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=54668, order=2},
+					Paul = {perks={Perks.Marauder}, votes=37226, order=3},
+					Barry = {perks={Perks.ArcaneCatalyst}, votes=14737, order=4},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=9756, order=5, params={extra_event="Spooky Festival"}},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.PetXPBuff,Perks.Lucky,Perks.MythologicalRitual}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[171] = {
+				date = "Nov 12, 2021",
+				candidates = {
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=15643, order=1, params={extra_event="Fishing Festival"}},
+					Cole = {perks={Perks.Prospection,Perks.MiningFiesta}, votes=17227, order=2},
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.SlashedPricing}, votes=438718, order=3},
+					Marina = {perks={Perks.FishingXPBuff}, votes=13558, order=4},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=50822, order=5},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.ATimeForGiving,Perks.ExtraEvent}
+				},
+				minister = {
+					name = "Cole",
+					perks = {Perks.Prospection}
+				}
+			},
+			[172] = {
+				date = "Nov 17, 2021",
+				candidates = {
+					Foxy = {perks={Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}, votes=360343, order=1, params={extra_event="Mining Fiesta"}},
+				},
+				mayor = {
+					name = "Foxy",
+					perks = {Perks.SweetBenevolence,Perks.ExtraEvent,Perks.ATimeForGiving,Perks.ChivalrousCarnival}
+				}			},
+			[173] = {
+				date = "Nov 22, 2021",
+				candidates = {
+					Paul = {perks={Perks.Marauder,Perks.Benediction}, votes=383152, order=1},
+				},
+				mayor = {
+					name = "Paul",
+					perks = {Perks.Marauder,Perks.Benediction}
+				}			},
+			[174] = {
+				date = "Nov 27, 2021",
+				candidates = {
+					Diana = {perks={Perks.Lucky,Perks.MythologicalRitual}, votes=418973, order=1},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.Lucky,Perks.MythologicalRitual}
+				}			},
+			[175] = {
+				date = "Dec 3, 2021",
+				candidates = {
+					Marina = {perks={Perks.FishingXPBuff,Perks.FishingFestival}, votes=341366, order=1},
+				},
+				mayor = {
+					name = "Marina",
+					perks = {Perks.FishingXPBuff,Perks.FishingFestival}
+				}			},
+			[176] = {
+				date = "Dec 8, 2021",
+				candidates = {
+					Derpy = {perks={Perks.QuadTaxes,Perks.TurboMinions,Perks.DoubleMobsHP,Perks.MoarSkillz}, votes=606504, order=1},
+				},
+				mayor = {
+					name = "Derpy",
+					perks = {Perks.QuadTaxes,Perks.TurboMinions,Perks.DoubleMobsHP,Perks.MoarSkillz}
+				}			},
+			[177] = {
+				date = "Dec 13, 2021",
+				candidates = {
+					Aatrox = {perks={Perks.SlayerXPBuff,Perks.SlashedPricing}, votes=438718, order=1},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=50822, order=2},
+					Cole = {perks={Perks.Prospection}, votes=17227, order=3},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=15643, order=4, params={extra_event="Unknown"}},
+					Marina = {perks={Perks.FishingXPBuff}, votes=13558, order=5},
+				},
+				mayor = {
+					name = "Aatrox",
+					perks = {Perks.SlayerXPBuff,Perks.SlashedPricing}
+				},
+				minister = {
+					name = "Diaz",
+					perks = {Perks.LongTermInvestment}
+				}
+			},
+			[178] = {
+				date = "Dec 18, 2021",
+				candidates = {
+					Diana = {perks={Perks.MythologicalRitual,Perks.Lucky}, votes=346605, order=1},
+					Aatrox = {perks={Perks.SlashedPricing}, votes=113477, order=2},
+					Diaz = {perks={Perks.LongTermInvestment,Perks.VolumeTrading}, votes=58980, order=3},
+					Foxy = {perks={Perks.ATimeForGiving,Perks.ExtraEvent}, votes=19344, order=4, params={extra_event="Unknown"}},
+					Marina = {perks={Perks.LuckOfTheSea}, votes=18157, order=5},
+				},
+				mayor = {
+					name = "Diana",
+					perks = {Perks.MythologicalRitual,Perks.Lucky}
+				},
+				minister = {
+					name = "Aatrox",
+					perks = {Perks.SlashedPricing}
+				}
+			}
+		}
+	}
