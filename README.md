@@ -22,7 +22,7 @@ Attempted to create an iterative random forest model to better predict election 
 
 To reduce bias I decided to use the entire dataset for this model.
 
-While in comparison to the random forest model with only data from data after the better mayors update (after july 3rd 2024) it is less accurate, in comparison to a basic RF model with the same data its more accurate, yet still less accurate than the limited data model.
+While in comparison to the random forest model with only data from after the better mayors update (after july 3rd 2024) it is less accurate, in comparison to a basic RF model with the same data its more accurate, yet still less accurate than the limited data model.
 
 While in most cases this may make this new iRF model useless, I believe it isnt. 
 
