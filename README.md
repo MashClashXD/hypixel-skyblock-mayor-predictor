@@ -15,3 +15,42 @@ This would be the most practical model to use as current mayors have minister pe
 The model without my added features had a mean accuracy of 0.548.
 
 The model with my added features had a mean accuracy of 0.6905.
+
+UPDATE 2:
+
+Attempted to create an iterative random forest model to better predict election winners.
+
+To reduce bias I decided to use the entire dataset for this model.
+
+While in comparison to the random forest model with only data from data after the better mayors update (after july 3rd 2024) it is less accurate, in comparison to a basic RF model with the same data its more accurate, yet still less accurate than the limited data model.
+
+While in most cases this may make this new iRF model useless, I believe it isnt. 
+
+The reason the iRF model is less accurate is due to a lack of minister data on all elections before july 3rd 2024, forcing the perk and candidate features to take on extra importance. On top of this adding the iterative nature of the an iRF model it compounds these effects.
+
+However, despite these flaws; in modern cases I believe this is the best model to use in future elections for predictions. 
+
+This is because when we look at the feature list for the iRF model we can see that the features are much more robust and make more logical sense.
+
+for example, 
+
+the #1 perk for RF = Perks.EZPZ  - 0.052568 
+
+the #1 perk for iRF = interaction_perk_Perks.SlashedPricing * interaction_perk_Perks.SlayerXPBuff * perk_Perks.SlashedPricing - 0.010973
+
+The fact that the RF has given nearly 5 times the weight as the iRF on a single perk means that its heavily susceptible to bias from a single perk when in reality most people dont think in terms of single perks.
+
+On the other hand, the iRF model's #1 perk is the interation of two perks from Aatrox showing that it understands more closely how real players may think when voting as a player will often weigh combinations of perks vs other single/combos of perks in their head.
+
+This is another reason as to why this model is very terribly affected by a lack of data. By lacking data it means we also lack many interactions between specific perks such as when Mining Festival and Mythological Ritual perks are simultaneously active.
+
+There isnt much currently that I can do to improve this model much due to lack of data. As more data comes to existence its possible the model may become slightly better hopefully.
+
+If my logic as to why the predictor is less accurate is correct, it is possible that training an iRF with more interactions per iteration and more features per iteration could greatly improve accuracy for future elections (as it is able to find more indepth interactions)
+
+However, it is still limited greatly by a lack of minister data in total and a lack of quality minister data (a majority of it is synthesized with probabilities).
+
+In all, through this project I've come to the conclusion that while its possible to create a somewhat accurate predictor for hypixel skyblock mayors, it will continue to be quite inaccurate due to a lack of data.
+
+Likely done with project till further notice.
+
