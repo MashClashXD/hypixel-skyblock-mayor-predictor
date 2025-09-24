@@ -26,7 +26,7 @@ While in comparison to the random forest model with only data from after the bet
 
 While in most cases this may make this new iRF model useless, I believe it isnt. 
 
-The reason the iRF model is less accurate is due to a lack of minister data on all elections before july 3rd 2024, forcing the perk and candidate features to take on extra importance. On top of this adding the iterative nature of the an iRF model it compounds these effects.
+The reason the iRF model is less accurate is due to a lack of minister data on all elections before july 3rd 2024, forcing the perk and candidate features to take on extra importance. On top of this adding the iterative nature of an iRF model it compounds these effects.
 
 However, despite these flaws; in modern cases I believe this is the best model to use in future elections for predictions. 
 
