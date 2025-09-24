@@ -26,7 +26,7 @@ While in comparison to the random forest model with only data from after the bet
 
 While in most cases this may make this new iRF model useless, I believe it isnt. 
 
-The reason the iRF model is less accurate is due to a lack of minister data on all elections before july 3rd 2024, forcing the perk and candidate features to take on extra importance. On top of this adding the iterative nature of an iRF model it compounds these effects.
+The reason the iRF model is less accurate is due to a lack of minister data on all elections before july 3rd 2024, forcing the perk and candidate features to take on extra importance. On top of this adding the iterative nature of an iRF model compounds these effects.
 
 However, despite these flaws; in modern cases I believe this is the best model to use in future elections for predictions. 
 
@@ -34,15 +34,15 @@ This is because when we look at the feature list for the iRF model we can see th
 
 for example, 
 
-the #1 perk for RF = Perks.EZPZ  - 0.052568 
+the #1 feature for RF = Perks.EZPZ  - 0.052568 
 
-the #1 perk for iRF = interaction_perk_Perks.SlashedPricing * interaction_perk_Perks.SlayerXPBuff * perk_Perks.SlashedPricing - 0.010973
+the #1 feature for iRF = interaction_perk_Perks.SlashedPricing * interaction_perk_Perks.SlayerXPBuff * perk_Perks.SlashedPricing - 0.010973
 
 The fact that the RF has given nearly 5 times the weight as the iRF on a single perk means that its heavily susceptible to bias from a single perk when in reality most people dont think in terms of single perks.
 
-On the other hand, the iRF model's #1 perk is the interation of two perks from Aatrox showing that it understands more closely how real players may think when voting as a player will often weigh combinations of perks vs other single/combos of perks in their head.
+On the other hand, the iRF model's #1 perk is the interaction of two perks from Aatrox. Showing that it understands more closely how real players may think when voting, since a player will often weigh combinations of perks vs other single/combos of perks in their head before voting.
 
-This is another reason as to why this model is very terribly affected by a lack of data. By lacking data it means we also lack many interactions between specific perks such as when Mining Festival and Mythological Ritual perks are simultaneously active.
+This is another reason as to why this model is very terribly affected by a lack of data. By lacking data it means we also lack many interactions between specific perks such as when Mining Festival and Mythological Ritual perks are simultaneously in the election.
 
 There isnt much currently that I can do to improve this model much due to lack of data. As more data comes to existence its possible the model may become slightly better hopefully.
 
