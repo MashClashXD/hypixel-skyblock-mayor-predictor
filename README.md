@@ -1,5 +1,5 @@
 # hypixel-skyblock-mayor-predictor
-Random Forest and SVM model that predicts the winner of the Hypixel Skyblock Election.
+Iterative Random Forest (iRF) and SVM model that predicts the winner of the Hypixel Skyblock Election.
 
 Scraped data from [here]([url](https://hypixel-skyblock.fandom.com/wiki/Module:Mayor/Elections/ApiData?action=edit)) and [here]([url](https://hypixel-skyblock.fandom.com/wiki/Module:Mayor/Elections/Data?action=edit)).
 
