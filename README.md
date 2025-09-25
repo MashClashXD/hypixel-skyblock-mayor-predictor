@@ -46,7 +46,7 @@ This is another reason as to why this model is very terribly affected by a lack 
 
 There isnt much currently that I can do to improve this model much due to lack of data. As more data comes to existence its possible the model may become slightly better hopefully.
 
-If my logic as to why the predictor is less accurate is correct, it is possible that training an iRF with more interactions per iteration and more features per iteration could greatly improve accuracy for future elections (as it is able to find more indepth interactions)
+If my logic as to why the predictor is less accurate is correct, it is possible that as more data is added it will rapidly become more accurate as its able to find more data to help validate minister perk importance, solidify its understanding of the most important mayor perks and find niche interactions between unrelated perks (this is what would make the model potenially better than humans).
 
 However, it is still limited greatly by a lack of minister data in total and a lack of quality minister data (a majority of it is synthesized with probabilities).
 
