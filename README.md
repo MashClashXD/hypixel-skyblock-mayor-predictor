@@ -36,11 +36,11 @@ for example,
 
 the #1 feature for RF = Perks.EZPZ  - 0.052568 
 
-the #1 feature for iRF = interaction_perk_Perks.SlashedPricing * interaction_perk_Perks.SlayerXPBuff * perk_Perks.SlashedPricing - 0.010973
+the #1 feature for iRF = interaction_perk_Perks.PetXPBuff * perk_Perks.MythologicalRitual - 0.022024
 
-The fact that the RF has given nearly 5 times the weight as the iRF on a single perk means that its heavily susceptible to bias from a single perk when in reality most people dont think in terms of single perks.
+The fact that the RF has given nearly 2 times the weight as the iRF on a single perk means that its heavily susceptible to bias from a single perk when in reality most people dont think in terms of single perks.
 
-On the other hand, the iRF model's #1 perk is the interaction of two perks from Aatrox. Showing that it understands more closely how real players may think when voting, since a player will often weigh combinations of perks vs other single/combos of perks in their head before voting.
+On the other hand, the iRF model's #1 feature is the interaction of two perks from Diana  (this is also weighted half as much as the RFs #1). Showing that it understands more closely how real players may think when voting, since a player will often weigh combinations of perks vs other single/combos of perks in their head before voting.
 
 This is another reason as to why this model is very terribly affected by a lack of data. By lacking data it means we also lack many interactions between specific perks such as when Mining Festival and Mythological Ritual perks are simultaneously in the election.
 
